@@ -14,6 +14,7 @@ def convert(time):
     hora, min = time.split(":")
     check = int(hora) + int(min) / 60.0
     
+    # Representación decimal de la hora
     if 7.0 <= check <= 8.0:
         return "Desayuno"
     elif 12.0 <= check <= 13.0:
